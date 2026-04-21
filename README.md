@@ -1,44 +1,44 @@
 # Auto Info Parser (Chrome Extension)
 
-Парсит данные с сайтов аукционов **iaai.com** и **copart.com** и копирует их в буфер обмена в формате, подходящем для вставки в Google Таблицы.
+Parses listing data from **iaai.com** and **copart.com** and copies it to the clipboard in a format suitable for pasting into Google Sheets.
 
-## 📦 Что делает расширение
+## What the extension does
 
-- Извлекает:
-  - Название авто (включая тип двигателя)
-  - Пробег (в числовом виде)
-  - Штат
-  - Ссылку на страницу
-- Копирует данные в буфер обмена в формате TSV (табуляция)
-- Поддерживает разные шаблоны страниц на IAAI и Copart
+- Extracts:
+  - Vehicle title (including engine type)
+  - Odometer reading (numeric)
+  - State
+  - Page URL
+- Copies data to the clipboard as TSV (tab-separated values)
+- Supports different page layouts on IAAI and Copart
 
 ---
 
-## ⚙️ Установка
+## Installation
 
-1. **Скачайте и распакуйте** папку `AutoScraper`.
-2. Откройте Chrome и перейдите на страницу расширений:
+1. **Download and unpack** the `AutoScraper` folder.
+2. Open Chrome and go to the extensions page:
 
    ```
    chrome://extensions/
    ```
 
-3. Включите **Режим разработчика** (в правом верхнем углу).
-4. Нажмите **«Загрузить распакованное расширение»**.
-5. Выберите распакованную папку `AutoScraper`.
+3. Turn on **Developer mode** (top right).
+4. Click **Load unpacked**.
+5. Select the unpacked `AutoScraper` folder.
 
 ---
 
-## 🧪 Как использовать
+## How to use
 
-1. Перейдите на любую страницу лота на сайте iaai.com или copart.com.
-2. Нажмите на иконку расширения в браузере.
-3. Нажмите кнопку **«Скопировать данные»**.
-4. Вставьте результат в Google Таблицу — данные появятся в отдельных колонках.
+1. Open any lot detail page on iaai.com or copart.com.
+2. Click the extension icon in the browser toolbar.
+3. Click **Copy data**.
+4. Paste into Google Sheets — values land in separate columns.
 
 ---
 
-## 📄 Пример результата
+## Sample output
 
 ```
 2017 FORD F150 - 3.5L 6	125606	TX	https://copart.com/lot/12345678
@@ -46,11 +46,11 @@
 
 ---
 
-## 🚫 Ограничения
+## Limitations
 
-- Некоторые страницы могут иметь отличную структуру — сообщите, если что-то не парсится.
+- Some pages may use a different layout — let the author know if something fails to parse.
 
 ---
 
-Автор: **Andri Huga**  
-Версия: 1.3
+Author: **Andri Huga**  
+Version: 1.3
