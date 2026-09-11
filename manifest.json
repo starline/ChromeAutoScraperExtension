@@ -1,13 +1,12 @@
 {
   "manifest_version": 3,
   "name": "Auto Scraper",
-  "version": "1.2",
-  "description": "Извлекает информацию с iaai.com и copart.com и копирует в буфер.",
+  "version": "1.4",
+  "description": "Extracts vehicle data from iaai.com and copart.com and copies it as TSV for Google Sheets.",
   "permissions": [
     "scripting",
     "clipboardWrite",
-    "activeTab",
-    "tabs"
+    "activeTab"
   ],
   "action": {
     "default_popup": "popup/popup.html",
@@ -15,24 +14,14 @@
       "16": "assets/icon.png"
     }
   },
-  "content_scripts": [
-    {
-      "matches": [
-        "<all_urls>"
-      ],
-      "js": [
-        "content/content.js"
-      ],
-      "run_at": "document_idle"
-    }
-  ],
   "web_accessible_resources": [
     {
       "resources": [
         "content/parsers/*.js"
       ],
       "matches": [
-        "<all_urls>"
+        "*://*.iaai.com/*",
+        "*://*.copart.com/*"
       ]
     }
   ]

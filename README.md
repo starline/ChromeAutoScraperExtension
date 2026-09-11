@@ -2,6 +2,8 @@
 
 Parses listing data from **iaai.com** and **copart.com** and copies it to the clipboard in a format suitable for pasting into Google Sheets.
 
+![Chrome AutoScraper — IAAI / Copart → Chrome Extension → Google Sheets](assets/readme-preview.jpg)
+
 ## What the extension does
 
 - Extracts:
@@ -54,3 +56,4 @@ Parses listing data from **iaai.com** and **copart.com** and copies it to the cl
 
 Author: **Andri Huga**  
 Version: 1.3
+
