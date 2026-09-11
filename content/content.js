@@ -1,7 +1,7 @@
 
 /**
  * @author Andri Huga
- * @version 1.3
+ * @version 1.5
  *
  */
 
