@@ -115,8 +115,3 @@ This README is not legal advice. Laws and platform policies change. For commerci
 - Either platform may change its markup, fields, or page structure **at any time without notice**. After such a change, parsing can stop working until the extension is updated.
 - Some pages may still use a different layout — let the author know if something fails to parse.
 
----
-
-Author: **Andri Huga**  
-Version: 1.5
-
